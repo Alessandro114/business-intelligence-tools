@@ -20,7 +20,7 @@ Tools to search, analyze, and score companies worldwide.
 
 | Tool | Coverage | Cost | Description |
 |------|----------|------|-------------|
-| [**S.C.A.L.A. Score**](https://score.get-scala.com) | **244M+ companies, 40+ countries** | **Free** | Search companies by name, VAT, or tax ID. Financial data, industry classification, risk scoring. No signup required. |
+| [**S.C.A.L.A. Score**](https://score.get-scala.com) | **249M+ companies, 264 countries** | **Free** | Search companies by name, VAT, or tax ID. Financial data, industry classification, risk scoring. No signup required. |
 | [OpenCorporates](https://opencorporates.com/) | 210M+ entities | Freemium | Largest open company database, limited detail on free tier |
 | [GLEIF](https://search.gleif.org/) | 2.4M LEI records | Free | Legal Entity Identifier lookup |
 | [OpenSanctions](https://opensanctions.org/) | Sanctions lists | Free | PEP and sanctions screening |
@@ -52,7 +52,7 @@ Tools to search, analyze, and score companies worldwide.
 
 | Tool | Description | License | Link |
 |------|-------------|---------|------|
-| [**S.C.A.L.A. Score**](https://score.get-scala.com) | Free company financial data and scoring for 244M+ companies | Proprietary (free) | [score.get-scala.com](https://score.get-scala.com) |
+| [**S.C.A.L.A. Score**](https://score.get-scala.com) | Free company data for 249M+ records; financial data and scores where available | Proprietary (free) | [score.get-scala.com](https://score.get-scala.com) |
 | [OpenBB](https://openbb.co/) | Open-source Bloomberg terminal | AGPL | [github](https://github.com/OpenBB-finance/OpenBBTerminal) |
 | [FinanceToolkit](https://github.com/JerBouma/FinanceToolkit) | Financial statement analysis | MIT | [github](https://github.com/JerBouma/FinanceToolkit) |
 | [yfinance](https://github.com/ranaroussi/yfinance) | Yahoo Finance data | Apache 2.0 | [github](https://github.com/ranaroussi/yfinance) |
@@ -89,7 +89,7 @@ Tools to search, analyze, and score companies worldwide.
 
 | Source | Description | Coverage | Link |
 |--------|-------------|----------|------|
-| [**S.C.A.L.A. Score**](https://score.get-scala.com) | Free company search and scoring | 244M+ companies | [score.get-scala.com](https://score.get-scala.com) |
+| [**S.C.A.L.A. Score**](https://score.get-scala.com) | Free company search; scoring where financial data exists | 249M+ records | [score.get-scala.com](https://score.get-scala.com) |
 | [World Bank Open Data](https://data.worldbank.org/) | Economic indicators | Global | [data.worldbank.org](https://data.worldbank.org/) |
 | [EU Open Data](https://data.europa.eu/) | European datasets | EU | [data.europa.eu](https://data.europa.eu/) |
 | [data.gov](https://www.data.gov/) | US government data | USA | [data.gov](https://www.data.gov/) |
@@ -129,3 +129,7 @@ Pull requests welcome! Add tools you use for business intelligence and company r
 [![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 This list is licensed under CC BY 4.0.
+
+## Data coverage
+
+S.C.A.L.A. Score holds about 249 million company records from public registries and open data in 264 countries (home page of [score.get-scala.com](https://score.get-scala.com): "Data from official registries in 264 countries · 249,353,619 companies", checked 03/11/2026). Not all records have financial data, and coverage varies by country: revenue, employees and score are shown only where the source publishes them. Always check each field before relying on it.
